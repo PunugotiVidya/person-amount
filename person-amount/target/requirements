@@ -1,0 +1,37 @@
+person-amount
+======================
+1. Spring web mvc
+2. Spring JDBC
+3. mysql connector
+4. jstl 
+5. servelt API
+
+get data from database
+========================
+a) create a POJO or domain class called student
+
+    Student
+    -> id
+    -> name
+    -> amount
+    
+1. create a DAO called persondao(I)
+        List<Student> loadPersons();
+        
+    
+insert a student record to the database.
+1. create a controller handler method to display the add-student.jsp.
+2. create a form to display add-student.jsp
+
+post&redirect&get to solve the refresh saving issue.
+
+controller->service->DAO->DB
+
+update the student record.
+=====================
+a. add the update link for the studentlist url.
+
+1. create a controller for update student.
+            /updateStudent
+            
+            
